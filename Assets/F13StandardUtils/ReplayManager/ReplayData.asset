@@ -1,0 +1,2567 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16127fd89ad4076b7b22451868e74fd, type: 3}
+  m_Name: ReplayData
+  m_EditorClassIdentifier: 
+  replays:
+  - id: record1.009167
+    record:
+    - time: 1.5459609
+      mousePosition: {x: 543.18225, y: 763.7569, z: 0}
+      inputState: 0
+    - time: 1.5459609
+      mousePosition: {x: 543.18225, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.5612159
+      mousePosition: {x: 543.18225, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.5736232
+      mousePosition: {x: 543.18225, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.5862424
+      mousePosition: {x: 543.18225, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.5983181
+      mousePosition: {x: 543.18225, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.6124477
+      mousePosition: {x: 541.0607, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.625943
+      mousePosition: {x: 538.9392, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.6389976
+      mousePosition: {x: 534.6961, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.652597
+      mousePosition: {x: 532.5746, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.6662674
+      mousePosition: {x: 528.3315, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 1.679677
+      mousePosition: {x: 526.2099, y: 765.8785, z: 0}
+      inputState: 2
+    - time: 1.785073
+      mousePosition: {x: 500.75137, y: 768, z: 0}
+      inputState: 2
+    - time: 1.8657932
+      mousePosition: {x: 490.14362, y: 768, z: 0}
+      inputState: 2
+    - time: 1.9090114
+      mousePosition: {x: 475.29282, y: 770.1216, z: 0}
+      inputState: 2
+    - time: 1.9799128
+      mousePosition: {x: 458.32043, y: 772.2431, z: 0}
+      inputState: 2
+    - time: 2.0184808
+      mousePosition: {x: 456.19888, y: 774.3646, z: 0}
+      inputState: 2
+    - time: 2.0550163
+      mousePosition: {x: 449.83423, y: 774.3646, z: 0}
+      inputState: 2
+    - time: 2.0752513
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.0909963
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.1054285
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.117768
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.132353
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.1461186
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.1596107
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.1745284
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.2088118
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.22617
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.2394433
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.2533538
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.2669744
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.2803257
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.2936523
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.3064175
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.3190458
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.3316815
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.3599832
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.3730836
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.4184725
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.4356046
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.4482877
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.4610658
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.473349
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.4859123
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.5166266
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.532403
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.5448573
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.5566432
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.5689564
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.5812097
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.594001
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.6065006
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.6185796
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.6309705
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.643749
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.6711998
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.6836095
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.6956322
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.7081695
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.721446
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.7350972
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.7489905
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.7649665
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.7806876
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.7943645
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.8261895
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.8416932
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.854442
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.8666792
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.8791058
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.8912675
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.9039032
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.9157982
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.9282942
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.9405084
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.9546664
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 2.9871304
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.003222
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.0162292
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.0301933
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.0423145
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.0545092
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.0669436
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.0790071
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.09194
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.104127
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.1164737
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.144401
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.156859
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.1693602
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.181291
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.1932716
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.2055287
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.217164
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.2298956
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.2417235
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.2538233
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.266654
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.2938113
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.3065395
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.3188357
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.3313813
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.343565
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.3552017
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.3673959
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.3875432
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.40024
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.412405
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.4242892
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.4516993
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.4640918
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.4759445
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.5119686
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.5317526
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.547235
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.5612206
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.5754433
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.6068277
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.622459
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.6356282
+      mousePosition: {x: 445.59116, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.6494288
+      mousePosition: {x: 447.7127, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.6622386
+      mousePosition: {x: 447.7127, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 3.6808357
+      mousePosition: {x: 447.7127, y: 778.6077, z: 0}
+      inputState: 2
+    - time: 3.6974635
+      mousePosition: {x: 447.7127, y: 778.6077, z: 0}
+      inputState: 2
+    - time: 3.71235
+      mousePosition: {x: 449.83423, y: 778.6077, z: 0}
+      inputState: 2
+    - time: 3.7270775
+      mousePosition: {x: 449.83423, y: 780.7293, z: 0}
+      inputState: 2
+    - time: 3.7586923
+      mousePosition: {x: 451.95578, y: 780.7293, z: 0}
+      inputState: 2
+    - time: 3.775796
+      mousePosition: {x: 454.07733, y: 780.7293, z: 0}
+      inputState: 2
+    - time: 3.7896285
+      mousePosition: {x: 456.19888, y: 782.8508, z: 0}
+      inputState: 2
+    - time: 3.8032188
+      mousePosition: {x: 458.32043, y: 782.8508, z: 0}
+      inputState: 2
+    - time: 3.816132
+      mousePosition: {x: 458.32043, y: 782.8508, z: 0}
+      inputState: 2
+    - time: 3.8296022
+      mousePosition: {x: 460.442, y: 782.8508, z: 0}
+      inputState: 2
+    - time: 3.8426733
+      mousePosition: {x: 462.5635, y: 782.8508, z: 0}
+      inputState: 2
+    - time: 3.8566766
+      mousePosition: {x: 464.68506, y: 784.9724, z: 0}
+      inputState: 2
+    - time: 3.871047
+      mousePosition: {x: 468.92816, y: 784.9724, z: 0}
+      inputState: 2
+    - time: 3.8845239
+      mousePosition: {x: 471.0497, y: 784.9724, z: 0}
+      inputState: 2
+    - time: 3.9136572
+      mousePosition: {x: 477.41434, y: 787.09393, z: 0}
+      inputState: 2
+    - time: 3.9281578
+      mousePosition: {x: 481.65744, y: 787.09393, z: 0}
+      inputState: 2
+    - time: 3.9414682
+      mousePosition: {x: 483.779, y: 787.09393, z: 0}
+      inputState: 2
+    - time: 3.9552698
+      mousePosition: {x: 488.0221, y: 789.21545, z: 0}
+      inputState: 2
+    - time: 3.9701033
+      mousePosition: {x: 492.26517, y: 789.21545, z: 0}
+      inputState: 2
+    - time: 3.984221
+      mousePosition: {x: 496.50827, y: 791.33704, z: 0}
+      inputState: 2
+    - time: 3.9993925
+      mousePosition: {x: 502.8729, y: 791.33704, z: 0}
+      inputState: 2
+    - time: 4.020481
+      mousePosition: {x: 509.23755, y: 791.33704, z: 0}
+      inputState: 2
+    - time: 4.0347223
+      mousePosition: {x: 515.6022, y: 793.45856, z: 0}
+      inputState: 2
+    - time: 4.0658355
+      mousePosition: {x: 526.2099, y: 795.58014, z: 0}
+      inputState: 2
+    - time: 4.0808225
+      mousePosition: {x: 532.5746, y: 797.70166, z: 0}
+      inputState: 2
+    - time: 4.095181
+      mousePosition: {x: 536.8176, y: 797.70166, z: 0}
+      inputState: 2
+    - time: 4.1105227
+      mousePosition: {x: 538.9392, y: 799.82324, z: 0}
+      inputState: 2
+    - time: 4.1252174
+      mousePosition: {x: 543.18225, y: 799.82324, z: 0}
+      inputState: 2
+    - time: 4.140913
+      mousePosition: {x: 549.5469, y: 801.94476, z: 0}
+      inputState: 2
+    - time: 4.1565623
+      mousePosition: {x: 553.79, y: 804.0663, z: 0}
+      inputState: 2
+    - time: 4.1721296
+      mousePosition: {x: 558.0331, y: 806.18787, z: 0}
+      inputState: 2
+    - time: 4.187578
+      mousePosition: {x: 562.2762, y: 808.3094, z: 0}
+      inputState: 2
+    - time: 4.221515
+      mousePosition: {x: 572.8839, y: 810.43097, z: 0}
+      inputState: 2
+    - time: 4.240154
+      mousePosition: {x: 575.0055, y: 812.5525, z: 0}
+      inputState: 2
+    - time: 4.2587113
+      mousePosition: {x: 577.127, y: 812.5525, z: 0}
+      inputState: 2
+    - time: 4.274224
+      mousePosition: {x: 579.24854, y: 812.5525, z: 0}
+      inputState: 2
+    - time: 4.288903
+      mousePosition: {x: 579.24854, y: 814.6741, z: 0}
+      inputState: 2
+    - time: 4.3032784
+      mousePosition: {x: 581.3701, y: 814.6741, z: 0}
+      inputState: 2
+    - time: 4.316894
+      mousePosition: {x: 581.3701, y: 814.6741, z: 0}
+      inputState: 2
+    - time: 4.33226
+      mousePosition: {x: 583.49164, y: 816.7956, z: 0}
+      inputState: 2
+    - time: 4.3491507
+      mousePosition: {x: 587.73474, y: 818.9171, z: 0}
+      inputState: 2
+    - time: 4.3828177
+      mousePosition: {x: 589.8563, y: 821.0387, z: 0}
+      inputState: 2
+    - time: 4.4010077
+      mousePosition: {x: 589.8563, y: 821.0387, z: 0}
+      inputState: 2
+    - time: 4.4143667
+      mousePosition: {x: 589.8563, y: 821.0387, z: 0}
+      inputState: 2
+    - time: 4.4278736
+      mousePosition: {x: 589.8563, y: 821.0387, z: 0}
+      inputState: 2
+    - time: 4.441185
+      mousePosition: {x: 589.8563, y: 821.0387, z: 0}
+      inputState: 2
+    - time: 4.4573984
+      mousePosition: {x: 591.97784, y: 821.0387, z: 0}
+      inputState: 2
+    - time: 4.4759636
+      mousePosition: {x: 591.97784, y: 823.1602, z: 0}
+      inputState: 2
+    - time: 4.492388
+      mousePosition: {x: 591.97784, y: 823.1602, z: 0}
+      inputState: 2
+    - time: 4.5063987
+      mousePosition: {x: 591.97784, y: 823.1602, z: 0}
+      inputState: 2
+    - time: 4.5386834
+      mousePosition: {x: 594.09937, y: 823.1602, z: 0}
+      inputState: 2
+    - time: 4.5568247
+      mousePosition: {x: 594.09937, y: 823.1602, z: 0}
+      inputState: 2
+    - time: 4.572805
+      mousePosition: {x: 596.22095, y: 825.2818, z: 0}
+      inputState: 2
+    - time: 4.589072
+      mousePosition: {x: 598.34247, y: 825.2818, z: 0}
+      inputState: 2
+    - time: 4.6029673
+      mousePosition: {x: 598.34247, y: 825.2818, z: 0}
+      inputState: 2
+    - time: 4.618941
+      mousePosition: {x: 600.46405, y: 827.4033, z: 0}
+      inputState: 2
+    - time: 4.6333003
+      mousePosition: {x: 600.46405, y: 827.4033, z: 0}
+      inputState: 2
+    - time: 4.649692
+      mousePosition: {x: 602.5856, y: 827.4033, z: 0}
+      inputState: 2
+    - time: 4.6675577
+      mousePosition: {x: 602.5856, y: 827.4033, z: 0}
+      inputState: 2
+    - time: 4.7051578
+      mousePosition: {x: 604.7071, y: 829.52484, z: 0}
+      inputState: 2
+    - time: 4.724282
+      mousePosition: {x: 606.8287, y: 829.52484, z: 0}
+      inputState: 2
+    - time: 4.740993
+      mousePosition: {x: 606.8287, y: 831.6464, z: 0}
+      inputState: 2
+    - time: 4.755647
+      mousePosition: {x: 606.8287, y: 831.6464, z: 0}
+      inputState: 2
+    - time: 4.7716618
+      mousePosition: {x: 608.9502, y: 831.6464, z: 0}
+      inputState: 2
+    - time: 4.7855287
+      mousePosition: {x: 608.9502, y: 831.6464, z: 0}
+      inputState: 2
+    - time: 4.7986693
+      mousePosition: {x: 608.9502, y: 831.6464, z: 0}
+      inputState: 2
+    - time: 4.815256
+      mousePosition: {x: 611.0718, y: 831.6464, z: 0}
+      inputState: 2
+    - time: 4.8345366
+      mousePosition: {x: 611.0718, y: 833.76794, z: 0}
+      inputState: 2
+    - time: 4.868555
+      mousePosition: {x: 613.1933, y: 833.76794, z: 0}
+      inputState: 2
+    - time: 4.8882003
+      mousePosition: {x: 615.3149, y: 835.8895, z: 0}
+      inputState: 2
+    - time: 4.9060016
+      mousePosition: {x: 617.4364, y: 835.8895, z: 0}
+      inputState: 2
+    - time: 4.9264426
+      mousePosition: {x: 619.5579, y: 835.8895, z: 0}
+      inputState: 2
+    - time: 4.946063
+      mousePosition: {x: 621.6795, y: 838.01105, z: 0}
+      inputState: 2
+    - time: 4.9619937
+      mousePosition: {x: 623.801, y: 838.01105, z: 0}
+      inputState: 2
+    - time: 4.9775677
+      mousePosition: {x: 623.801, y: 840.1326, z: 0}
+      inputState: 2
+    - time: 4.992956
+      mousePosition: {x: 623.801, y: 840.1326, z: 0}
+      inputState: 2
+    - time: 5.0291834
+      mousePosition: {x: 628.0441, y: 840.1326, z: 0}
+      inputState: 2
+    - time: 5.0490956
+      mousePosition: {x: 630.1657, y: 842.25415, z: 0}
+      inputState: 2
+    - time: 5.0671234
+      mousePosition: {x: 630.1657, y: 842.25415, z: 0}
+      inputState: 2
+    - time: 5.08359
+      mousePosition: {x: 632.28723, y: 842.25415, z: 0}
+      inputState: 2
+    - time: 5.100301
+      mousePosition: {x: 632.28723, y: 844.3757, z: 0}
+      inputState: 2
+    - time: 5.1156564
+      mousePosition: {x: 634.40875, y: 844.3757, z: 0}
+      inputState: 2
+    - time: 5.13028
+      mousePosition: {x: 634.40875, y: 844.3757, z: 0}
+      inputState: 2
+    - time: 5.144198
+      mousePosition: {x: 636.53033, y: 844.3757, z: 0}
+      inputState: 2
+    - time: 5.1797624
+      mousePosition: {x: 638.65186, y: 846.49725, z: 0}
+      inputState: 2
+    - time: 5.1985927
+      mousePosition: {x: 640.77344, y: 848.6188, z: 0}
+      inputState: 2
+    - time: 5.2148027
+      mousePosition: {x: 640.77344, y: 848.6188, z: 0}
+      inputState: 2
+    - time: 5.228528
+      mousePosition: {x: 640.77344, y: 848.6188, z: 0}
+      inputState: 2
+    - time: 5.2423697
+      mousePosition: {x: 640.77344, y: 848.6188, z: 0}
+      inputState: 2
+    - time: 5.258148
+      mousePosition: {x: 640.77344, y: 848.6188, z: 0}
+      inputState: 2
+    - time: 5.27609
+      mousePosition: {x: 642.89496, y: 848.6188, z: 0}
+      inputState: 2
+    - time: 5.298281
+      mousePosition: {x: 645.0165, y: 850.74036, z: 0}
+      inputState: 2
+    - time: 5.338705
+      mousePosition: {x: 647.13806, y: 852.8619, z: 0}
+      inputState: 2
+    - time: 5.36075
+      mousePosition: {x: 647.13806, y: 852.8619, z: 0}
+      inputState: 2
+    - time: 5.3784766
+      mousePosition: {x: 649.2596, y: 854.98346, z: 0}
+      inputState: 2
+    - time: 5.3968325
+      mousePosition: {x: 649.2596, y: 854.98346, z: 0}
+      inputState: 2
+    - time: 5.4124064
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.4310303
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.449783
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.493911
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.5134363
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.537359
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.5518765
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.5659204
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.579078
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.5927014
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.6102643
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.6431723
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.6607714
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.6742706
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.6877494
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.701608
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.719058
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.736828
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.7510605
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.7652974
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.7968607
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.814304
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.829555
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.8459816
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.8627753
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.876869
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.891254
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.9057584
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.9200635
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.951854
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.9703865
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 5.986602
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.000529
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.0153866
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.0303183
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.045359
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.060336
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.0752697
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.1094403
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.1270623
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.142311
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.159819
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.176933
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.1943603
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.2082067
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.2222157
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.2360783
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.268888
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.28649
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.304086
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.3212547
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.3349843
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.3492527
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.3627095
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.377364
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.392944
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.426026
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.443417
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.457736
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.472268
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.486913
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.5034947
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.520034
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.5370173
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.551266
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.5883327
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.6094103
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.633434
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.64742
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.6642733
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.681747
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.6955957
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.7099423
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.7427716
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.7690725
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.7865624
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.8005
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.814268
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.8281074
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.8423843
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.855569
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.8697224
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.90085
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.9175134
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.933035
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.9500647
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.965876
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.979537
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 6.9935145
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.0070977
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.021607
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.054278
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.0728936
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.0862784
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.0995574
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.1165576
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.133387
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.1471543
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.1615243
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.1756234
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.207538
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.2244153
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.238747
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.2527604
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.2666698
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.2798247
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.2934403
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.306746
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.3211017
+      mousePosition: {x: 651.38116, y: 857.105, z: 0}
+      inputState: 2
+    - time: 7.338529
+      mousePosition: {x: 651.38116, y: 859.2265, z: 0}
+      inputState: 2
+    - time: 7.3722215
+      mousePosition: {x: 651.38116, y: 859.2265, z: 0}
+      inputState: 2
+    - time: 7.389382
+      mousePosition: {x: 651.38116, y: 859.2265, z: 0}
+      inputState: 2
+    - time: 7.402579
+      mousePosition: {x: 651.38116, y: 859.2265, z: 0}
+      inputState: 2
+    - time: 7.417896
+      mousePosition: {x: 649.2596, y: 859.2265, z: 0}
+      inputState: 2
+    - time: 7.4330697
+      mousePosition: {x: 649.2596, y: 861.3481, z: 0}
+      inputState: 2
+    - time: 7.4480186
+      mousePosition: {x: 647.13806, y: 861.3481, z: 0}
+      inputState: 2
+    - time: 7.4646573
+      mousePosition: {x: 647.13806, y: 861.3481, z: 0}
+      inputState: 2
+    - time: 7.4827533
+      mousePosition: {x: 645.0165, y: 863.4696, z: 0}
+      inputState: 2
+    - time: 7.497766
+      mousePosition: {x: 642.89496, y: 863.4696, z: 0}
+      inputState: 2
+    - time: 7.5319524
+      mousePosition: {x: 636.53033, y: 865.5912, z: 0}
+      inputState: 2
+    - time: 7.549725
+      mousePosition: {x: 636.53033, y: 865.5912, z: 0}
+      inputState: 2
+    - time: 7.5642867
+      mousePosition: {x: 634.40875, y: 865.5912, z: 0}
+      inputState: 2
+    - time: 7.578564
+      mousePosition: {x: 634.40875, y: 867.7127, z: 0}
+      inputState: 2
+    - time: 7.593741
+      mousePosition: {x: 632.28723, y: 867.7127, z: 0}
+      inputState: 2
+    - time: 7.609016
+      mousePosition: {x: 628.0441, y: 869.8343, z: 0}
+      inputState: 2
+    - time: 7.6234727
+      mousePosition: {x: 625.9226, y: 869.8343, z: 0}
+      inputState: 2
+    - time: 7.6390452
+      mousePosition: {x: 623.801, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.657535
+      mousePosition: {x: 621.6795, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.6911464
+      mousePosition: {x: 619.5579, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.708052
+      mousePosition: {x: 619.5579, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.7217298
+      mousePosition: {x: 619.5579, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.741669
+      mousePosition: {x: 619.5579, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.7602935
+      mousePosition: {x: 617.4364, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.7789407
+      mousePosition: {x: 617.4364, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.7960906
+      mousePosition: {x: 617.4364, y: 871.9558, z: 0}
+      inputState: 2
+    - time: 7.811298
+      mousePosition: {x: 617.4364, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.846391
+      mousePosition: {x: 617.4364, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.8650985
+      mousePosition: {x: 617.4364, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.8824887
+      mousePosition: {x: 617.4364, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.902406
+      mousePosition: {x: 617.4364, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.9207635
+      mousePosition: {x: 615.3149, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.9351487
+      mousePosition: {x: 615.3149, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.9512324
+      mousePosition: {x: 613.1933, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.966479
+      mousePosition: {x: 611.0718, y: 874.07733, z: 0}
+      inputState: 2
+    - time: 7.999747
+      mousePosition: {x: 606.8287, y: 876.1989, z: 0}
+      inputState: 2
+    - time: 8.018675
+      mousePosition: {x: 604.7071, y: 876.1989, z: 0}
+      inputState: 2
+    - time: 8.034012
+      mousePosition: {x: 602.5856, y: 878.32043, z: 0}
+      inputState: 2
+    - time: 8.050779
+      mousePosition: {x: 598.34247, y: 878.32043, z: 0}
+      inputState: 2
+    - time: 8.067968
+      mousePosition: {x: 594.09937, y: 878.32043, z: 0}
+      inputState: 2
+    - time: 8.088882
+      mousePosition: {x: 589.8563, y: 880.442, z: 0}
+      inputState: 2
+    - time: 8.107082
+      mousePosition: {x: 585.6132, y: 880.442, z: 0}
+      inputState: 2
+    - time: 8.122667
+      mousePosition: {x: 581.3701, y: 882.56354, z: 0}
+      inputState: 2
+    - time: 8.156614
+      mousePosition: {x: 568.6408, y: 882.56354, z: 0}
+      inputState: 2
+    - time: 8.175793
+      mousePosition: {x: 562.2762, y: 882.56354, z: 0}
+      inputState: 2
+    - time: 8.191292
+      mousePosition: {x: 560.15466, y: 882.56354, z: 0}
+      inputState: 2
+    - time: 8.206121
+      mousePosition: {x: 558.0331, y: 882.56354, z: 0}
+      inputState: 2
+    - time: 8.224398
+      mousePosition: {x: 555.91156, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.241854
+      mousePosition: {x: 555.91156, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.257586
+      mousePosition: {x: 553.79, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.2739105
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.306408
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.323927
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.34012
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.358259
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.3762665
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.390366
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.403879
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.418007
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.433933
+      mousePosition: {x: 551.66846, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.46961
+      mousePosition: {x: 549.5469, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.487608
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.502848
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.520672
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.537859
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.552952
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.570398
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.58671
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.621479
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.639627
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.655508
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.672676
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.689898
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.703484
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.719629
+      mousePosition: {x: 547.42535, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.737623
+      mousePosition: {x: 549.5469, y: 884.6851, z: 0}
+      inputState: 2
+    - time: 8.772526
+      mousePosition: {x: 551.66846, y: 886.80664, z: 0}
+      inputState: 2
+    - time: 8.792885
+      mousePosition: {x: 553.79, y: 886.80664, z: 0}
+      inputState: 2
+    - time: 8.809822
+      mousePosition: {x: 555.91156, y: 888.92816, z: 0}
+      inputState: 2
+    - time: 8.82749
+      mousePosition: {x: 555.91156, y: 888.92816, z: 0}
+      inputState: 2
+    - time: 8.847055
+      mousePosition: {x: 558.0331, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 8.864906
+      mousePosition: {x: 560.15466, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 8.883625
+      mousePosition: {x: 562.2762, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 8.902674
+      mousePosition: {x: 566.5193, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 8.939911
+      mousePosition: {x: 575.0055, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 8.960632
+      mousePosition: {x: 579.24854, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 8.977001
+      mousePosition: {x: 583.49164, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 8.99592
+      mousePosition: {x: 589.8563, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.016651
+      mousePosition: {x: 598.34247, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.037645
+      mousePosition: {x: 606.8287, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.058001
+      mousePosition: {x: 611.0718, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.093494
+      mousePosition: {x: 617.4364, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.115097
+      mousePosition: {x: 623.801, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.137213
+      mousePosition: {x: 628.0441, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.157261
+      mousePosition: {x: 630.1657, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.173908
+      mousePosition: {x: 632.28723, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.191727
+      mousePosition: {x: 634.40875, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.209883
+      mousePosition: {x: 636.53033, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.242918
+      mousePosition: {x: 638.65186, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.261765
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.2754345
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.2892685
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.302551
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.316349
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.3335
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.350077
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.363792
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.395817
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.412601
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.426065
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.439207
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.455503
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.472269
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.485809
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.498945
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.512531
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.526165
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.557356
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.5744705
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.587761
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.600878
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.616941
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.632778
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.648918
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.661474
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.674709
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.691254
+      mousePosition: {x: 640.77344, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.724665
+      mousePosition: {x: 628.0441, y: 895.29285, z: 0}
+      inputState: 2
+    - time: 9.74262
+      mousePosition: {x: 615.3149, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.760248
+      mousePosition: {x: 606.8287, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.775404
+      mousePosition: {x: 602.5856, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.792013
+      mousePosition: {x: 602.5856, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.809456
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.822519
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.844318
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.876238
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.893547
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.9096985
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.921499
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.933897
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.946547
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.959652
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.971962
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.984743
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 9.997242
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 10.0297165
+      mousePosition: {x: 600.46405, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 10.04607
+      mousePosition: {x: 598.34247, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 10.05999
+      mousePosition: {x: 596.22095, y: 893.17126, z: 0}
+      inputState: 2
+    - time: 10.077143
+      mousePosition: {x: 591.97784, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 10.09395
+      mousePosition: {x: 587.73474, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 10.107479
+      mousePosition: {x: 585.6132, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 10.121117
+      mousePosition: {x: 585.6132, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 10.134613
+      mousePosition: {x: 583.49164, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 10.147791
+      mousePosition: {x: 583.49164, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 10.178757
+      mousePosition: {x: 583.49164, y: 891.04974, z: 0}
+      inputState: 2
+    - time: 10.198748
+      mousePosition: {x: 583.49164, y: 891.04974, z: 0}
+      inputState: 1
+    - time: 11.367441
+      mousePosition: {x: 621.6795, y: 704.3536, z: 0}
+      inputState: 0
+    - time: 11.367441
+      mousePosition: {x: 621.6795, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.380064
+      mousePosition: {x: 621.6795, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.411369
+      mousePosition: {x: 621.6795, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.427689
+      mousePosition: {x: 621.6795, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.440626
+      mousePosition: {x: 619.5579, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.454369
+      mousePosition: {x: 617.4364, y: 702.23206, z: 0}
+      inputState: 2
+    - time: 11.469027
+      mousePosition: {x: 613.1933, y: 702.23206, z: 0}
+      inputState: 2
+    - time: 11.4888
+      mousePosition: {x: 604.7071, y: 702.23206, z: 0}
+      inputState: 2
+    - time: 11.510532
+      mousePosition: {x: 591.97784, y: 702.23206, z: 0}
+      inputState: 2
+    - time: 11.534655
+      mousePosition: {x: 581.3701, y: 702.23206, z: 0}
+      inputState: 2
+    - time: 11.569061
+      mousePosition: {x: 566.5193, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.585709
+      mousePosition: {x: 562.2762, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.599802
+      mousePosition: {x: 560.15466, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.614391
+      mousePosition: {x: 558.0331, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.628113
+      mousePosition: {x: 553.79, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.64469
+      mousePosition: {x: 549.5469, y: 704.3536, z: 0}
+      inputState: 2
+    - time: 11.661379
+      mousePosition: {x: 545.30383, y: 706.47516, z: 0}
+      inputState: 2
+    - time: 11.676369
+      mousePosition: {x: 541.0607, y: 706.47516, z: 0}
+      inputState: 2
+    - time: 11.690502
+      mousePosition: {x: 534.6961, y: 706.47516, z: 0}
+      inputState: 2
+    - time: 11.7228565
+      mousePosition: {x: 521.96686, y: 708.5967, z: 0}
+      inputState: 2
+    - time: 11.7410145
+      mousePosition: {x: 513.48065, y: 708.5967, z: 0}
+      inputState: 2
+    - time: 11.756029
+      mousePosition: {x: 507.116, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.773203
+      mousePosition: {x: 500.75137, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.790333
+      mousePosition: {x: 496.50827, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.803215
+      mousePosition: {x: 494.38672, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.818001
+      mousePosition: {x: 490.14362, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.834631
+      mousePosition: {x: 485.90054, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.8526535
+      mousePosition: {x: 479.5359, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.886333
+      mousePosition: {x: 462.5635, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 11.903259
+      mousePosition: {x: 456.19888, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 11.919416
+      mousePosition: {x: 449.83423, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 11.937256
+      mousePosition: {x: 443.4696, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 11.95574
+      mousePosition: {x: 434.9834, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 11.970461
+      mousePosition: {x: 430.74033, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 11.984186
+      mousePosition: {x: 426.49722, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 11.999737
+      mousePosition: {x: 422.25412, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 12.017729
+      mousePosition: {x: 420.1326, y: 710.71826, z: 0}
+      inputState: 2
+    - time: 12.051849
+      mousePosition: {x: 411.6464, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 12.070133
+      mousePosition: {x: 403.16022, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 12.083992
+      mousePosition: {x: 398.9171, y: 712.8398, z: 0}
+      inputState: 2
+    - time: 12.098883
+      mousePosition: {x: 392.5525, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.11335
+      mousePosition: {x: 386.18784, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.127756
+      mousePosition: {x: 379.8232, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.141399
+      mousePosition: {x: 375.5801, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.155924
+      mousePosition: {x: 369.21545, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.171833
+      mousePosition: {x: 364.97238, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.206791
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.223806
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.237228
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.250561
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.263395
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.2767315
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.290222
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.30274
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.315659
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.329111
+      mousePosition: {x: 362.85083, y: 714.9613, z: 0}
+      inputState: 2
+    - time: 12.361532
+      mousePosition: {x: 364.97238, y: 719.2044, z: 0}
+      inputState: 2
+    - time: 12.378757
+      mousePosition: {x: 369.21545, y: 721.326, z: 0}
+      inputState: 2
+    - time: 12.393774
+      mousePosition: {x: 371.337, y: 723.4475, z: 0}
+      inputState: 2
+    - time: 12.408091
+      mousePosition: {x: 373.45856, y: 725.5691, z: 0}
+      inputState: 2
+    - time: 12.421213
+      mousePosition: {x: 373.45856, y: 725.5691, z: 0}
+      inputState: 2
+    - time: 12.4352455
+      mousePosition: {x: 375.5801, y: 725.5691, z: 0}
+      inputState: 2
+    - time: 12.449659
+      mousePosition: {x: 377.70166, y: 727.6906, z: 0}
+      inputState: 2
+    - time: 12.4625435
+      mousePosition: {x: 379.8232, y: 727.6906, z: 0}
+      inputState: 2
+    - time: 12.476103
+      mousePosition: {x: 379.8232, y: 727.6906, z: 0}
+      inputState: 2
+    - time: 12.489956
+      mousePosition: {x: 381.94473, y: 729.81213, z: 0}
+      inputState: 2
+    - time: 12.522718
+      mousePosition: {x: 384.06628, y: 731.9337, z: 0}
+      inputState: 2
+    - time: 12.540417
+      mousePosition: {x: 384.06628, y: 734.05524, z: 0}
+      inputState: 2
+    - time: 12.554876
+      mousePosition: {x: 386.18784, y: 734.05524, z: 0}
+      inputState: 2
+    - time: 12.569515
+      mousePosition: {x: 388.3094, y: 734.05524, z: 0}
+      inputState: 2
+    - time: 12.583027
+      mousePosition: {x: 388.3094, y: 736.1768, z: 0}
+      inputState: 2
+    - time: 12.597948
+      mousePosition: {x: 392.5525, y: 738.29834, z: 0}
+      inputState: 2
+    - time: 12.611824
+      mousePosition: {x: 394.674, y: 740.4199, z: 0}
+      inputState: 2
+    - time: 12.626478
+      mousePosition: {x: 398.9171, y: 742.54144, z: 0}
+      inputState: 2
+    - time: 12.643852
+      mousePosition: {x: 403.16022, y: 744.66296, z: 0}
+      inputState: 2
+    - time: 12.676781
+      mousePosition: {x: 405.28177, y: 744.66296, z: 0}
+      inputState: 2
+    - time: 12.694614
+      mousePosition: {x: 405.28177, y: 746.78455, z: 0}
+      inputState: 2
+    - time: 12.708576
+      mousePosition: {x: 407.40332, y: 746.78455, z: 0}
+      inputState: 2
+    - time: 12.722296
+      mousePosition: {x: 409.52484, y: 748.90607, z: 0}
+      inputState: 2
+    - time: 12.736475
+      mousePosition: {x: 409.52484, y: 748.90607, z: 0}
+      inputState: 2
+    - time: 12.750866
+      mousePosition: {x: 411.6464, y: 748.90607, z: 0}
+      inputState: 2
+    - time: 12.765024
+      mousePosition: {x: 411.6464, y: 751.02765, z: 0}
+      inputState: 2
+    - time: 12.778681
+      mousePosition: {x: 413.76794, y: 751.02765, z: 0}
+      inputState: 2
+    - time: 12.797119
+      mousePosition: {x: 415.8895, y: 751.02765, z: 0}
+      inputState: 2
+    - time: 12.830038
+      mousePosition: {x: 420.1326, y: 753.1492, z: 0}
+      inputState: 2
+    - time: 12.847149
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.860689
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.873842
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.887566
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.90354
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.919834
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.933321
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.9461975
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.958712
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 12.991259
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.007511
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.023706
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.036818
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.050341
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.062281
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.074776
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.087818
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.100616
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.113867
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.145987
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.162004
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.175152
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.192404
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.209225
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.221809
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.235073
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.249176
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.264784
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.296492
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.313364
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.329569
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.342928
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.35623
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.370195
+      mousePosition: {x: 422.25412, y: 755.27075, z: 0}
+      inputState: 2
+    - time: 13.384455
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.399408
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.417311
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.452768
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.470663
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.483465
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.497824
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.513647
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.531113
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.548269
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.562576
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.577484
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.610783
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.627447
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.64263
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.660929
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.680128
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.697504
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.71163
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.725695
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.739656
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.77355
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.790432
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.809135
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.827438
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.844515
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.859673
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.874081
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.889137
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.902376
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.935152
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.952648
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.970236
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.983835
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 13.997515
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.0120945
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.026094
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.039852
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.054577
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.089233
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.106192
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.126982
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.146498
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.163906
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.177717
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.192165
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.206932
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.240639
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.25717
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.271679
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.286358
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.302433
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.319885
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.333776
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.347343
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.360037
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.392071
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.409319
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.425648
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.439564
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.453001
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.465778
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.478083
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.495287
+      mousePosition: {x: 422.25412, y: 757.3923, z: 0}
+      inputState: 2
+    - time: 14.5121155
+      mousePosition: {x: 422.25412, y: 759.5138, z: 0}
+      inputState: 2
+    - time: 14.545771
+      mousePosition: {x: 422.25412, y: 761.6354, z: 0}
+      inputState: 2
+    - time: 14.563328
+      mousePosition: {x: 422.25412, y: 761.6354, z: 0}
+      inputState: 2
+    - time: 14.577362
+      mousePosition: {x: 422.25412, y: 761.6354, z: 0}
+      inputState: 2
+    - time: 14.591621
+      mousePosition: {x: 422.25412, y: 761.6354, z: 0}
+      inputState: 2
+    - time: 14.606083
+      mousePosition: {x: 422.25412, y: 761.6354, z: 0}
+      inputState: 2
+    - time: 14.619524
+      mousePosition: {x: 422.25412, y: 761.6354, z: 0}
+      inputState: 2
+    - time: 14.633884
+      mousePosition: {x: 422.25412, y: 761.6354, z: 0}
+      inputState: 2
+    - time: 14.648512
+      mousePosition: {x: 420.1326, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 14.662436
+      mousePosition: {x: 420.1326, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 14.695917
+      mousePosition: {x: 420.1326, y: 763.7569, z: 0}
+      inputState: 2
+    - time: 14.714514
+      mousePosition: {x: 420.1326, y: 765.8785, z: 0}
+      inputState: 2
+    - time: 14.732458
+      mousePosition: {x: 420.1326, y: 765.8785, z: 0}
+      inputState: 2
+    - time: 14.750589
+      mousePosition: {x: 420.1326, y: 768, z: 0}
+      inputState: 2
+    - time: 14.763554
+      mousePosition: {x: 420.1326, y: 768, z: 0}
+      inputState: 2
+    - time: 14.777756
+      mousePosition: {x: 418.01105, y: 768, z: 0}
+      inputState: 2
+    - time: 14.792063
+      mousePosition: {x: 418.01105, y: 770.1216, z: 0}
+      inputState: 2
+    - time: 14.80966
+      mousePosition: {x: 418.01105, y: 770.1216, z: 0}
+      inputState: 2
+    - time: 14.827244
+      mousePosition: {x: 415.8895, y: 772.2431, z: 0}
+      inputState: 2
+    - time: 14.861914
+      mousePosition: {x: 413.76794, y: 774.3646, z: 0}
+      inputState: 2
+    - time: 14.880259
+      mousePosition: {x: 413.76794, y: 774.3646, z: 0}
+      inputState: 2
+    - time: 14.896015
+      mousePosition: {x: 411.6464, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 14.913937
+      mousePosition: {x: 411.6464, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 14.931469
+      mousePosition: {x: 411.6464, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 14.949516
+      mousePosition: {x: 411.6464, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 14.96332
+      mousePosition: {x: 411.6464, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 14.978336
+      mousePosition: {x: 411.6464, y: 776.4862, z: 0}
+      inputState: 2
+    - time: 15.012564
+      mousePosition: {x: 409.52484, y: 778.6077, z: 0}
+      inputState: 2
+    - time: 15.030794
+      mousePosition: {x: 409.52484, y: 778.6077, z: 0}
+      inputState: 2
+    - time: 15.049192
+      mousePosition: {x: 407.40332, y: 780.7293, z: 0}
+      inputState: 2
+    - time: 15.065117
+      mousePosition: {x: 405.28177, y: 780.7293, z: 0}
+      inputState: 2
+    - time: 15.079948
+      mousePosition: {x: 405.28177, y: 780.7293, z: 0}
+      inputState: 2
+    - time: 15.094938
+      mousePosition: {x: 403.16022, y: 782.8508, z: 0}
+      inputState: 2
+    - time: 15.110235
+      mousePosition: {x: 401.03867, y: 782.8508, z: 0}
+      inputState: 2
+    - time: 15.124968
+      mousePosition: {x: 396.79556, y: 784.9724, z: 0}
+      inputState: 2
+    - time: 15.140564
+      mousePosition: {x: 394.674, y: 787.09393, z: 0}
+      inputState: 2
+    - time: 15.177582
+      mousePosition: {x: 384.06628, y: 791.33704, z: 0}
+      inputState: 2
+    - time: 15.197094
+      mousePosition: {x: 379.8232, y: 791.33704, z: 0}
+      inputState: 2
+    - time: 15.21582
+      mousePosition: {x: 373.45856, y: 793.45856, z: 0}
+      inputState: 2
+    - time: 15.23241
+      mousePosition: {x: 369.21545, y: 797.70166, z: 0}
+      inputState: 2
+    - time: 15.247587
+      mousePosition: {x: 367.0939, y: 797.70166, z: 0}
+      inputState: 2
+    - time: 15.264057
+      mousePosition: {x: 362.85083, y: 799.82324, z: 0}
+      inputState: 2
+    - time: 15.281254
+      mousePosition: {x: 360.72928, y: 799.82324, z: 0}
+      inputState: 2
+    - time: 15.295828
+      mousePosition: {x: 358.60773, y: 799.82324, z: 0}
+      inputState: 2
+    - time: 15.327127
+      mousePosition: {x: 358.60773, y: 799.82324, z: 0}
+      inputState: 2
+    - time: 15.344732
+      mousePosition: {x: 358.60773, y: 791.33704, z: 0}
+      inputState: 2
+    - time: 15.364019
+      mousePosition: {x: 367.0939, y: 768, z: 0}
+      inputState: 2
+    - time: 15.3795395
+      mousePosition: {x: 390.43094, y: 742.54144, z: 0}
+      inputState: 2
+    - time: 15.395796
+      mousePosition: {x: 443.4696, y: 708.5967, z: 0}
+      inputState: 2
+    - time: 15.411011
+      mousePosition: {x: 515.6022, y: 681.0166, z: 0}
+      inputState: 2
+    - time: 15.429071
+      mousePosition: {x: 600.46405, y: 651.31494, z: 0}
+      inputState: 2
+    - time: 15.449333
+      mousePosition: {x: 683.20435, y: 623.7348, z: 0}
+      inputState: 2
+    - time: 15.484781
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.501556
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.514864
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.527706
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.540176
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.553564
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.570429
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.585842
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.598967
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.612473
+      mousePosition: {x: 736.24304, y: 602.51935, z: 0}
+      inputState: 2
+    - time: 15.644989
+      mousePosition: {x: 736.24304, y: 604.64087, z: 0}
+      inputState: 2
+    - time: 15.6631775
+      mousePosition: {x: 734.12146, y: 604.64087, z: 0}
+      inputState: 2
+    - time: 15.677792
+      mousePosition: {x: 731.99994, y: 604.64087, z: 0}
+      inputState: 2
+    - time: 15.696053
+      mousePosition: {x: 721.3922, y: 611.00555, z: 0}
+      inputState: 2
+    - time: 15.715357
+      mousePosition: {x: 698.0552, y: 617.3702, z: 0}
+      inputState: 2
+    - time: 15.731152
+      mousePosition: {x: 676.8397, y: 623.7348, z: 0}
+      inputState: 2
+    - time: 15.746567
+      mousePosition: {x: 664.1104, y: 623.7348, z: 0}
+      inputState: 2
+    - time: 15.760321
+      mousePosition: {x: 657.7458, y: 625.8564, z: 0}
+      inputState: 2
+    - time: 15.774584
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.807295
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.825792
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.843559
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.858677
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.873253
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.888107
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.902309
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.916067
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.931301
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.964863
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 15.982523
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.001234
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.020414
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.035437
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.052853
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.070457
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.08489
+      mousePosition: {x: 657.7458, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.129076
+      mousePosition: {x: 621.6795, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.148005
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.16668
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.182684
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.19546
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.208307
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.221203
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.23442
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.249268
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.282389
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.299587
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.316565
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.333063
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.346634
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.362488
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.37911
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.392878
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.406916
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.44183
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.458902
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.47257
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.48574
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.501652
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.518572
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.542019
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.55948
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.590837
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.607304
+      mousePosition: {x: 608.9502, y: 627.9779, z: 0}
+      inputState: 2
+    - time: 16.621027
+      mousePosition: {x: 608.9502, y: 630.0994, z: 0}
+      inputState: 2
+    - time: 16.633612
+      mousePosition: {x: 608.9502, y: 630.0994, z: 0}
+      inputState: 2
+    - time: 16.647282
+      mousePosition: {x: 608.9502, y: 630.0994, z: 0}
+      inputState: 2
+    - time: 16.663937
+      mousePosition: {x: 608.9502, y: 630.0994, z: 0}
+      inputState: 2
+    - time: 16.681501
+      mousePosition: {x: 611.0718, y: 630.0994, z: 0}
+      inputState: 2
+    - time: 16.696438
+      mousePosition: {x: 611.0718, y: 632.221, z: 0}
+      inputState: 2
+    - time: 16.714119
+      mousePosition: {x: 613.1933, y: 632.221, z: 0}
+      inputState: 2
+    - time: 16.747904
+      mousePosition: {x: 617.4364, y: 636.4641, z: 0}
+      inputState: 2
+    - time: 16.766653
+      mousePosition: {x: 619.5579, y: 636.4641, z: 0}
+      inputState: 2
+    - time: 16.782911
+      mousePosition: {x: 619.5579, y: 636.4641, z: 0}
+      inputState: 2
+    - time: 16.796776
+      mousePosition: {x: 621.6795, y: 638.58563, z: 0}
+      inputState: 2
+    - time: 16.811525
+      mousePosition: {x: 621.6795, y: 638.58563, z: 0}
+      inputState: 2
+    - time: 16.827503
+      mousePosition: {x: 621.6795, y: 638.58563, z: 0}
+      inputState: 2
+    - time: 16.84333
+      mousePosition: {x: 621.6795, y: 638.58563, z: 0}
+      inputState: 2
+    - time: 16.857006
+      mousePosition: {x: 621.6795, y: 638.58563, z: 0}
+      inputState: 2
+    - time: 16.874914
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 16.906916
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 16.924444
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 16.941074
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 16.955069
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 16.968927
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 16.981617
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 16.99478
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.011404
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.027061
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.057657
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.074247
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.090675
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.105862
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.119175
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.132591
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.145535
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.159273
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.175085
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.191528
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.223282
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.240028
+      mousePosition: {x: 623.801, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.254894
+      mousePosition: {x: 625.9226, y: 640.7072, z: 0}
+      inputState: 2
+    - time: 17.273598
+      mousePosition: {x: 628.0441, y: 642.82874, z: 0}
+      inputState: 2
+    - time: 17.291233
+      mousePosition: {x: 630.1657, y: 642.82874, z: 0}
+      inputState: 2
+    - time: 17.31004
+      mousePosition: {x: 632.28723, y: 644.95026, z: 0}
+      inputState: 2
+    - time: 17.3258
+      mousePosition: {x: 632.28723, y: 644.95026, z: 0}
+      inputState: 2
+    - time: 17.340689
+      mousePosition: {x: 634.40875, y: 644.95026, z: 0}
+      inputState: 2
+    - time: 17.355173
+      mousePosition: {x: 636.53033, y: 647.07184, z: 0}
+      inputState: 2
+    - time: 17.388277
+      mousePosition: {x: 638.65186, y: 647.07184, z: 0}
+      inputState: 2
+    - time: 17.405348
+      mousePosition: {x: 638.65186, y: 647.07184, z: 0}
+      inputState: 2
+    - time: 17.423176
+      mousePosition: {x: 638.65186, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.442606
+      mousePosition: {x: 640.77344, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.457478
+      mousePosition: {x: 640.77344, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.475218
+      mousePosition: {x: 640.77344, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.493126
+      mousePosition: {x: 640.77344, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.507095
+      mousePosition: {x: 640.77344, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.541533
+      mousePosition: {x: 640.77344, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.562382
+      mousePosition: {x: 642.89496, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.580118
+      mousePosition: {x: 642.89496, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.59738
+      mousePosition: {x: 642.89496, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.612396
+      mousePosition: {x: 642.89496, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.626791
+      mousePosition: {x: 642.89496, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.640478
+      mousePosition: {x: 642.89496, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.65852
+      mousePosition: {x: 642.89496, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.694092
+      mousePosition: {x: 645.0165, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.711391
+      mousePosition: {x: 645.0165, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.72493
+      mousePosition: {x: 645.0165, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.737545
+      mousePosition: {x: 645.0165, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.754677
+      mousePosition: {x: 645.0165, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.772127
+      mousePosition: {x: 645.0165, y: 649.19336, z: 0}
+      inputState: 2
+    - time: 17.787321
+      mousePosition: {x: 645.0165, y: 649.19336, z: 0}
+      inputState: 1
