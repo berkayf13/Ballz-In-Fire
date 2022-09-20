@@ -6,21 +6,23 @@ using UnityEngine;
 
 public class CylinderObstacle : MonoBehaviour
 {
-    [SerializeField] private float _defHealth;
+    
     [SerializeField] private float _health;
     [SerializeField] private MeshRenderer _mesh;
     [SerializeField] private TextMeshPro _tmp;
+    [SerializeField] private Transform _model;
     [SerializeField] private Color _color1;
     [SerializeField] private Color _color2;
     [SerializeField] private Color _color3;
     [SerializeField] private Color _color4;
 
+    private float _defHealth;
 
     private void Awake()
     {
         UpdateColor();
         UpdateText();
-
+        _defHealth = _health;
 
     }
     private void OnTriggerEnter(Collider other)
@@ -35,7 +37,7 @@ public class CylinderObstacle : MonoBehaviour
                 DamagaScale();
                 ScaleDown();
                 UpdateText();
-                if (_health == 0) Destroy(transform.parent.gameObject);
+                if (_health == 0) Destroy(gameObject);
             }
 
         }
@@ -43,9 +45,9 @@ public class CylinderObstacle : MonoBehaviour
 
     private void DamagaScale()
     {
-        transform.DOScale(new Vector3(_health / _defHealth+.025f, 1+0.25f, _health / _defHealth + .025f), 0.02f).OnComplete((() =>
+        _model.transform.DOScale(new Vector3(_health / _defHealth+.025f, _health / _defHealth + 0.25f, _health / _defHealth + .025f), 0.02f).OnComplete((() =>
         {
-            transform.DOScale(new Vector3(_health / _defHealth, 1, _health / _defHealth), 0.01f);
+            _model.transform.DOScale(new Vector3(_health / _defHealth, _health / _defHealth, _health / _defHealth), 0.01f);
         }));
     }
 
@@ -60,8 +62,7 @@ public class CylinderObstacle : MonoBehaviour
 
     private void ScaleDown()
     {
-        transform.DOScale(new Vector3(_health / _defHealth, 1, _health / _defHealth),0.25f);
-        _mesh.transform.DOLocalMoveY(_mesh.transform.localPosition.y-0.25f, 0.25f);
+        _model.transform.DOScale(new Vector3(_health / _defHealth, _health / _defHealth, _health / _defHealth),0.25f);
     }
 
     private void UpdateText()
@@ -69,9 +70,5 @@ public class CylinderObstacle : MonoBehaviour
         _tmp.text = "" + _health;
     }
 
-    private IEnumerator DelayDestroy()
-    {
-        yield return new WaitForSeconds(1);
-        Destroy(transform.parent.gameObject);
-    }
+   
 }

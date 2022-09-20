@@ -60,7 +60,7 @@ public class PlayerAnimController : Singleton<PlayerAnimController>
     [Button]
     public void Attack()
     {
-        TriggerAnimation(ANIM_ATTACK);
+        _animator.Play("Attack");
 
     }
 
