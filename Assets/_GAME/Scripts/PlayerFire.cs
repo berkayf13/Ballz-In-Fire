@@ -35,7 +35,6 @@ public class PlayerFire : MonoBehaviour
         yield return new WaitForSeconds(_fireRate);
         CreateBall();
         onUpdateCoroutine = false;
-        //PlayerAnimController.Instance.Run();
     }
 
 

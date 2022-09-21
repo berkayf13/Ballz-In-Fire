@@ -32,7 +32,9 @@ public class CameraController : Singleton<CameraController>
         {
             var camPos = transform.localPosition;
             var posX = Mathf.Lerp(camPos.x, player.transform.localPosition.x, Time.deltaTime * 10);
+            var posZ = Mathf.Lerp(camPos.z, player.transform.localPosition.z, Time.deltaTime * 10);
             camPos.x = posX;
+            camPos.z = posZ;
             transform.localPosition = camPos;
         }
 
