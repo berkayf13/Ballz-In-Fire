@@ -13,7 +13,7 @@ public class PlayerFire : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (GameController.Instance.IsPlaying)
+        if (GameController.Instance.IsPlaying && MoveZ.Instance.isMove)
         {
             if (!onUpdateCoroutine)
             {
@@ -23,7 +23,7 @@ public class PlayerFire : MonoBehaviour
     }
     private void CreateBall()
     {
-        _bulletSpawnPos.transform.rotation = Quaternion.Euler(0,Random.Range(-1f,1f), 0);
+        _bulletSpawnPos.transform.rotation = Quaternion.Euler(0, Random.Range(-1f, 1f), 0);
         var ballBullet = Instantiate(_ballPrefap, _bulletSpawnPos.position, _bulletSpawnPos.rotation).GetComponent<BallBullet>();
         ballBullet.SetVelocity(_bulletSpawnPos.transform.forward * _bulletSpeed);
     }

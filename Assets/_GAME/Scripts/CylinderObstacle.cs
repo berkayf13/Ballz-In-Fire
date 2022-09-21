@@ -18,18 +18,18 @@ public class CylinderObstacle : MonoBehaviour
     [SerializeField] private Color _color4;
 
     private float _defHealth;
-    private float _scaleDown;
-    private float _diff;
+    private float _scaleDownXZ;
+    private float _scaleDownY;
+    private float _diffXZ;
+    private float _diffY;
 
     private void Awake()
     {
         UpdateText();
         UpdateColorNScale();
-        _defHealth = _health;
-        _diff = transform.localScale.x - 0.75f;
-        _scaleDown = _diff / _defHealth;
-
+        CalculateDamage();
     }
+
     private void OnTriggerEnter(Collider other)
     {
         var bullet = other.GetComponent<BallBullet>();
@@ -37,11 +37,12 @@ public class CylinderObstacle : MonoBehaviour
         {
             if (_health > 0)
             {
+
                 _health--;
                 DamagaAnim();
                 UpdateText();
                 UpdateColor();
-                transform.localScale -=  Vector3.one*_scaleDown;
+                Damage();
                 if (_health == 0) Destroy(gameObject);
             }
 
@@ -89,7 +90,7 @@ public class CylinderObstacle : MonoBehaviour
 
     private void UpdateColor()
     {
-        if (_health > 30) _mesh.material.DOColor(_color4,0.25f);
+        if (_health > 30) _mesh.material.DOColor(_color4, 0.25f);
         if (_health <= 30) _mesh.material.DOColor(_color3, 0.25f);
         if (_health <= 20) _mesh.material.DOColor(_color2, 0.25f);
         if (_health <= 10) _mesh.material.DOColor(_color1, 0.25f);
@@ -100,5 +101,32 @@ public class CylinderObstacle : MonoBehaviour
         _tmp.text = "" + _health;
     }
 
+    private void CalculateDamage()
+    {
+        _defHealth = _health;
+        if (_defHealth > 10)
+        {
+            _diffXZ = transform.localScale.x - 1f;
+            _diffY = transform.localScale.y - 1f;
+            _scaleDownXZ = _diffXZ / (_defHealth-10);
+            _scaleDownY = _diffY / (_defHealth-10);
+        }
+        else
+        {
+            _scaleDownXZ = 0;
+            _scaleDownY = 0;
+        }
 
+    }
+
+    private void Damage()
+    {
+        if (_health >= 10)
+        {
+            transform.localScale -= Vector3.right * _scaleDownXZ;
+            transform.localScale -= Vector3.forward * _scaleDownXZ;
+            transform.localScale -= Vector3.up * _scaleDownY;
+        }
+
+    }
 }
