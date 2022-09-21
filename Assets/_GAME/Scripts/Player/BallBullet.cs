@@ -5,16 +5,20 @@ using UnityEngine;
 public class BallBullet : MonoBehaviour
 {
     [SerializeField] public Rigidbody _rb;
-    public float range=2;
     public float bounce;
 
-    private void Awake()
-    {
-        StartCoroutine(Range(range));
-    }
+
     public void SetVelocity(Vector3 velocity)
     {
         _rb.velocity = velocity;
+    }
+    public void SetRange(float time)
+    {
+        StartCoroutine(Range(time));
+    }
+    public void SetBouncy(float bouncy)
+    {
+        bounce = bouncy;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -36,6 +40,7 @@ public class BallBullet : MonoBehaviour
 
         }
     }
+
 
     private IEnumerator Range(float time)
     {

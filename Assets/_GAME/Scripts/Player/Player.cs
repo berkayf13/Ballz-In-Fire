@@ -6,17 +6,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -24,7 +14,7 @@ public class Player : MonoBehaviour
         if (other.TryGetComponent(out CylinderObstacle obs))
         {
             MoveZ.Instance.isMove = false;
-            transform.DOMoveZ(transform.position.z - 20, 1f).SetEase(Ease.OutElastic).OnComplete(()=>MoveZ.Instance.isMove=true);
+            transform.DOMoveZ(transform.position.z - 20, 1f).OnComplete(()=>MoveZ.Instance.isMove=true);
         }
 
     }
