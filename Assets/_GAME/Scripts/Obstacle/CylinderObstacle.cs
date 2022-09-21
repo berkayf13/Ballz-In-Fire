@@ -32,12 +32,11 @@ public class CylinderObstacle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        var bullet = other.GetComponent<BallBullet>();
-        if (bullet)
+        
+        if (other.TryGetComponent(out BallBullet bullet))
         {
             if (_health > 0)
             {
-
                 _health--;
                 DamagaAnim();
                 UpdateText();
@@ -47,6 +46,7 @@ public class CylinderObstacle : MonoBehaviour
             }
 
         }
+
     }
 
     private void DamagaAnim()
