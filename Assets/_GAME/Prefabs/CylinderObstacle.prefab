@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 6012595887586839923}
   m_Layer: 0
   m_Name: CylinderObstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,6 +197,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   _currentColor: {r: 0, g: 0, b: 0, a: 0}
   _current: 0
+  _removed: 0
 --- !u!136 &6012595887586839923
 CapsuleCollider:
   m_ObjectHideFlags: 0
