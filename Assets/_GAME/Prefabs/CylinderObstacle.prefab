@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 7128450588742009031}
   - component: {fileID: 1991415959380302517}
   - component: {fileID: 6012595887586839923}
-  - component: {fileID: 1084804027211882507}
   m_Layer: 0
   m_Name: CylinderObstacle
   m_TagString: Untagged
@@ -170,19 +169,19 @@ MonoBehaviour:
   _gradient:
     serializedVersion: 2
     key0: {r: 0.46659112, g: 1, b: 0, a: 1}
-    key1: {r: 1, g: 0.9398438, b: 0, a: 1}
-    key2: {r: 0.990566, g: 0.43638444, b: 0, a: 0}
-    key3: {r: 1, g: 0, b: 0.046096325, a: 0}
+    key1: {r: 1, g: 0.9137255, b: 0, a: 1}
+    key2: {r: 0.990566, g: 0.43529412, b: 0, a: 0}
+    key3: {r: 0.990566, g: 0, b: 0, a: 0}
     key4: {r: 0.990566, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0.990566, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
-    ctime1: 16384
-    ctime2: 32768
-    ctime3: 49151
+    ctime1: 19661
+    ctime2: 39321
+    ctime3: 58982
     ctime4: 65535
-    ctime5: 0
+    ctime5: 65535
     ctime6: 0
     ctime7: 0
     atime0: 0
@@ -194,8 +193,10 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 5
+    m_NumColorKeys: 4
     m_NumAlphaKeys: 2
+  _currentColor: {r: 0, g: 0, b: 0, a: 0}
+  _current: 0
 --- !u!136 &6012595887586839923
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -210,19 +211,6 @@ CapsuleCollider:
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 1.5, z: 0}
---- !u!65 &1084804027211882507
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7128450588742009030}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 5, y: 4, z: 4}
-  m_Center: {x: 0, y: 2, z: 0}
 --- !u!1 &7128450589375823849
 GameObject:
   m_ObjectHideFlags: 0

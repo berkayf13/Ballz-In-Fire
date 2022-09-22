@@ -17,18 +17,21 @@ public class CylinderObstacle : MonoBehaviour
     [SerializeField] private Color _color3;
     [SerializeField] private Color _color4;
     [SerializeField] private Gradient _gradient;
+    [SerializeField] private Color _currentColor;
+    [SerializeField] private float _current;
 
     private float _defHealth;
     private float _scaleDownXZ;
     private float _scaleDownY;
     private float _diffXZ;
     private float _diffY;
+    [SerializeField,ReadOnly] private float _removed;
 
     private void Awake()
     {
         UpdateText();
-        UpdateColorNScale();
         CalculateDamage();
+        UpdateColorNScale();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -64,39 +67,41 @@ public class CylinderObstacle : MonoBehaviour
     {
         if (_health > 30)
         {
-            _mesh.material.color = _color4;
             transform.localScale = new Vector3(1.75f, 1.375f, 1.75f);
+            _current = 0.9f;
         }
 
         if (_health <= 30)
         {
-            _mesh.material.color = _color3;
             transform.localScale = new Vector3(1.5f, 1.25f, 1.5f);
+            _current = 0.6f;
         }
 
         if (_health <= 20)
         {
-            _mesh.material.color = _color2;
             transform.localScale = new Vector3(1.25f, 1.125f, 1.25f);
+            _current = 0.3f;
         }
 
         if (_health <= 10)
         {
-            _mesh.material.color = _color1;
             transform.localScale = new Vector3(1f, 1f, 1f);
+            _current = 0f;
         }
+        _currentColor = _gradient.Evaluate(_current);
+        _mesh.material.color = _currentColor;
 
     }
 #endif
 
     private void UpdateColor()
     {
-        if (_health > 30) _mesh.material.DOColor(_color4, 0.25f);
-        if (_health <= 30) _mesh.material.DOColor(_color3, 0.25f);
-        if (_health <= 20) _mesh.material.DOColor(_color2, 0.25f);
-        if (_health <= 10) _mesh.material.DOColor(_color1, 0.25f);
-
+        if (_defHealth <= 10) return;
+        _current -= _removed;
+        _currentColor = _gradient.Evaluate(_current);
+        _mesh.material.color = _currentColor;
     }
+
     private void UpdateText()
     {
         _tmp.text = "" + _health;
@@ -105,6 +110,7 @@ public class CylinderObstacle : MonoBehaviour
     private void CalculateDamage()
     {
         _defHealth = _health;
+        _removed = _current / (_defHealth - 10);
         if (_defHealth > 10)
         {
             _diffXZ = transform.localScale.x - 1f;
