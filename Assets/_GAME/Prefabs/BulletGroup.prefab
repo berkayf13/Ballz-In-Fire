@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 1786186959166204055}
   - component: {fileID: 1786186959166204054}
   - component: {fileID: 1786186959166204057}
-  - component: {fileID: 1786186959166204056}
   - component: {fileID: 1786186959166204058}
   - component: {fileID: 7674839734257345203}
   - component: {fileID: 8374473762041845889}
+  - component: {fileID: 449016807061807806}
   m_Layer: 0
   m_Name: BulletGroup
   m_TagString: Untagged
@@ -89,19 +89,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1786186959166204056
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786186959166204061}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1786186959166204058
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -149,6 +136,20 @@ MonoBehaviour:
   - {fileID: 5469416489029822917}
   - {fileID: 4699748395423508369}
   - {fileID: 3612396096541347514}
+--- !u!136 &449016807061807806
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786186959166204061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3612396096541347514
 GameObject:
   m_ObjectHideFlags: 0

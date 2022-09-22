@@ -18,9 +18,15 @@ public class Player : MonoBehaviour
         if (other.TryGetComponent(out CylinderObstacle cylinder))
         {
             if (cylinder.final)
+            {
                 GameController.Instance.SuccessLevel();
+                MoveZ.Instance.isMove = false;
+            }
             else
+            {
                 BackBouncy();
+            }
+                
         }
         
     }
