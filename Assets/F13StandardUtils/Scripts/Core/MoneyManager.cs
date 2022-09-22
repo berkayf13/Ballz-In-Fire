@@ -13,7 +13,7 @@ public class MoneyManager : Singleton<MoneyManager>
 
     private void Awake()
     {
-        SetMoneyCount(GameController.Instance.PlayerData.Money, false);
+        SetMoneyCount(GameController.Instance.PlayerData.Money, true);
     }
 
     public void SetMoneyCount(int money, bool updatePlayerPref = true)

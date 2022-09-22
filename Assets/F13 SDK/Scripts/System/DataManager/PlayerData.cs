@@ -18,10 +18,13 @@ namespace Assets.F13SDK.Scripts
         private float _queueLenght = 0;
         private int _money = 0;
         private int _levelMoney = 0;
-        private List<float> _seatUnlockedRatios=new List<float>();
+        private List<float> _seatUnlockedRatios = new List<float>();
         private int _checkSum;
         private bool _updateCheckSum = true;
         private bool _cheatingStatus = false;
+        private int _fireRate = 0;
+        private int _damage = 0;
+        private int _income = 0;
 
         public int CheckSum()
         {
@@ -30,6 +33,9 @@ namespace Assets.F13SDK.Scripts
             checkSum += _queueLenght.GetHashCode();
             checkSum += _money.GetHashCode();
             checkSum += _levelMoney.GetHashCode();
+            checkSum += _fireRate.GetHashCode();
+            checkSum += _damage.GetHashCode();
+            checkSum += _income.GetHashCode();
             for (var index = 0; index < _seatUnlockedRatios.Count; index++)
             {
                 checkSum += _seatUnlockedRatios[index].GetHashCode();
@@ -70,6 +76,9 @@ namespace Assets.F13SDK.Scripts
                 QueueLenght = 0;
                 Money = 0;
                 LevelMoney = 0;
+                FireRate = 0;
+                Damage = 0;
+                Income = 0;
                 ResetSeatRatios();
                 _updateCheckSum = true;
                 UpdateCheckSum();
@@ -92,6 +101,9 @@ namespace Assets.F13SDK.Scripts
             _queueLenght = PlayerPrefs.GetFloat("queueLenght", _queueLenght);
             _money = PlayerPrefs.GetInt("money", _money);
             _levelMoney = PlayerPrefs.GetInt("levelMoney", _levelMoney);
+            _fireRate = PlayerPrefs.GetInt("fireRate", _fireRate);
+            _damage = PlayerPrefs.GetInt("damage", _damage);
+            _income = PlayerPrefs.GetInt("income", _income);
             LoadSeatRatios();
             CheckCheatStatus();
         }
@@ -160,7 +172,7 @@ namespace Assets.F13SDK.Scripts
             }
         }
 
-        
+
         public float QueueLenght
         {
             get { return _queueLenght; }
@@ -194,7 +206,40 @@ namespace Assets.F13SDK.Scripts
                 UpdateCheckSum();
             }
         }
-        
+
+        public int FireRate
+        {
+            get { return _fireRate; }
+            set
+            {
+                _fireRate = value;
+                PlayerPrefs.SetInt("fireRate", _fireRate);
+                UpdateCheckSum();
+            }
+        }
+
+        public int Income
+        {
+            get { return _income; }
+            set
+            {
+                _income = value;
+                PlayerPrefs.SetInt("income", _income);
+                UpdateCheckSum();
+            }
+        }
+
+        public int Damage
+        {
+            get { return _damage; }
+            set
+            {
+                _damage = value;
+                PlayerPrefs.SetInt("damage", _damage);
+                UpdateCheckSum();
+            }
+        }
+
         public float GetSeatRatio(int index)
         {
             return _seatUnlockedRatios[index];
@@ -204,17 +249,17 @@ namespace Assets.F13SDK.Scripts
         {
             ratio = Mathf.Clamp(ratio, 0f, 1f);
             _seatUnlockedRatios[index] = ratio;
-            PlayerPrefs.SetFloat("seat_"+index, ratio);
+            PlayerPrefs.SetFloat("seat_" + index, ratio);
             UpdateCheckSum();
 
         }
-        
+
         public void LoadSeatRatios()
         {
             _seatUnlockedRatios.Clear();
             for (var index = 0; index < 100; index++)
             {
-                _seatUnlockedRatios.Add(PlayerPrefs.GetFloat("seat_"+index, 0f));
+                _seatUnlockedRatios.Add(PlayerPrefs.GetFloat("seat_" + index, 0f));
             }
         }
 
@@ -222,7 +267,7 @@ namespace Assets.F13SDK.Scripts
         {
             for (var index = 0; index < 100; index++)
             {
-                SetSeatRatio(index,0f);
+                SetSeatRatio(index, 0f);
             }
         }
 
@@ -231,7 +276,7 @@ namespace Assets.F13SDK.Scripts
             get => _cheatingStatus;
             set => _cheatingStatus = value;
         }
-        
+
         #endregion
     }
 }

@@ -47,8 +47,9 @@ namespace F13StandardUtils.CollectTicket.PowerUp.Scripts
         {
             if (IsMoneyEnough)
             {
-                LevelMoneyController.Instance.SpendMoney(LevelUpCost());
+                MoneyManager.Instance?.IncrementMoney(-LevelUpCost());
                 Level++;
+                MoneyTXT.Instance?.CreateIncrementText(-LevelUpCost());
             }
             else
             {

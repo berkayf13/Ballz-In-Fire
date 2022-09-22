@@ -7,7 +7,7 @@ public abstract class BasePowerUp : MonoBehaviour
     protected abstract float Level { get; set; }
     protected abstract void OnLevelChanged();
     
-    protected bool IsMoneyEnough => LevelMoneyController.Instance.Money >= LevelUpCost();
+    protected bool IsMoneyEnough => MoneyManager.Instance?.MoneyCount >= LevelUpCost();
     
     protected int LevelUpCost()
     {

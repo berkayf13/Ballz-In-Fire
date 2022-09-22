@@ -5366,30 +5366,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 7425790330630333628}
-    - target: {fileID: 12562550392696182, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-      propertyPath: chasePlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482537821098240, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482537821098240, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482537821098240, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9914449
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482537821098240, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.13052616
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482537821098240, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 7194747755651345932, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
       propertyPath: m_Name
       value: Cams
@@ -5438,10 +5414,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1781581022815965733, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-    - {fileID: 5916398075839320664, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
-    - {fileID: 271773271970336487, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e231f816f8005d46bec4b34d07c017c, type: 3}
 --- !u!4 &1072649040135356324 stripped
 Transform:

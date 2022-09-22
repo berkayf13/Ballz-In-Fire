@@ -56,13 +56,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397576682767066709}
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 20, z: -30}
+  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalPosition: {x: 0, y: 15, z: -17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7633430291843135114}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
 --- !u!20 &7280833820149888273
 Camera:
   m_ObjectHideFlags: 0
@@ -437,9 +437,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7633430291843135114}
   - component: {fileID: 12562550392696182}
-  - component: {fileID: 1781581022815965733}
-  - component: {fileID: 5916398075839320664}
-  - component: {fileID: 271773271970336487}
   m_Layer: 0
   m_Name: Cams
   m_TagString: Untagged
@@ -499,60 +496,8 @@ MonoBehaviour:
   - {fileID: 5100588665828304398}
   - {fileID: 7612943323393828113}
   player: {fileID: 0}
-  chasePlayer: 0
+  chasePlayer: 1
   lastCam: {fileID: 0}
---- !u!114 &1781581022815965733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194747755651345932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1134a95d7f79490e868a1b49deacf8a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minClampX: -10
-  maxClampX: 10
-  minClampZ: 20
-  maxClampZ: 45
-  speed: 1
---- !u!114 &5916398075839320664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194747755651345932}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee2a4fbb07b6605459c09ac5900d23a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minClampX: -10
-  maxClampX: 10
-  minClampZ: 20
-  maxClampZ: 45
-  xRatio: 0.1
-  yRatio: 0.1
-  speed: 6
---- !u!114 &271773271970336487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194747755651345932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d0e70b9110a044cb52a3ca64245afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _movementStrategies:
-  - {fileID: 1781581022815965733}
-  - {fileID: 5916398075839320664}
-  _current: 0
 --- !u!1 &7307137577220748724
 GameObject:
   m_ObjectHideFlags: 0
