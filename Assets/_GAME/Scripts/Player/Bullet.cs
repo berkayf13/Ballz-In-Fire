@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallBullet : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     [SerializeField] public Rigidbody _rb;
-    public float bounce;
+    private float bounce;
 
 
     public void SetVelocity(Vector3 velocity)

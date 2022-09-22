@@ -12,23 +12,23 @@ public class CylinderObstacle : MonoBehaviour
     [SerializeField] private MeshRenderer _mesh;
     [SerializeField] private TextMeshPro _tmp;
     [SerializeField] private Transform _model;
-    [SerializeField] private Color _color1;
-    [SerializeField] private Color _color2;
-    [SerializeField] private Color _color3;
-    [SerializeField] private Color _color4;
+    [SerializeField] private GameObject _gun;
     [SerializeField] private Gradient _gradient;
     [SerializeField] private Color _currentColor;
     [SerializeField] private float _current;
+    [SerializeField, ReadOnly] private float _removed;
 
+    private Collider _col;
     private float _defHealth;
     private float _scaleDownXZ;
     private float _scaleDownY;
     private float _diffXZ;
     private float _diffY;
-    [SerializeField,ReadOnly] private float _removed;
+
 
     private void Awake()
     {
+        _col = GetComponent<Collider>(); ;
         UpdateText();
         CalculateDamage();
         UpdateColorNScale();
@@ -37,7 +37,7 @@ public class CylinderObstacle : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         
-        if (other.TryGetComponent(out BallBullet bullet))
+        if (other.TryGetComponent(out Bullet bullet))
         {
             if (_health > 0)
             {
@@ -46,7 +46,14 @@ public class CylinderObstacle : MonoBehaviour
                 UpdateText();
                 UpdateColor();
                 Damage();
-                if (_health == 0) Destroy(gameObject);
+                if (_health == 0)
+                {
+                    _col.enabled = false;
+                    _tmp.enabled = false;
+                    _model.gameObject.SetActive(false);
+                    if (_gun.activeInHierarchy) _gun.transform.DOMoveY(0, 0.5f);
+                    
+                }
             }
 
         }

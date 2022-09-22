@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerFire : MonoBehaviour
 {
+    [SerializeField] private PlayerWeapon _weapon;
     [SerializeField] private GameObject _ballPrefap;
     [SerializeField] private Transform _bulletSpawnPos;
     [SerializeField] private float _bulletSpeed;
@@ -31,12 +32,14 @@ public class PlayerFire : MonoBehaviour
         for (int i = 0; i < bulletCount; i++)
         {
             _bulletSpawnPos.transform.rotation = Quaternion.Euler(0, Random.Range(-1f - bulletCount, 1f + bulletCount), 0);
-            var ballBullet = Instantiate(_ballPrefap, _bulletSpawnPos.position, _bulletSpawnPos.rotation).GetComponent<BallBullet>();
-            ballBullet.transform.parent = transform.parent;
-            ballBullet.SetVelocity(_bulletSpawnPos.transform.forward * _bulletSpeed);
-            ballBullet.SetRange(bulletRange);
-            ballBullet.SetBouncy(bulletBouncy);
-            ballBullet.bounce = bulletBouncy;
+            var bullet = Instantiate(_ballPrefap, _bulletSpawnPos.position, _bulletSpawnPos.rotation).GetComponent<Bullet>();
+            bullet.transform.parent = transform.parent;
+            bullet.SetVelocity(_bulletSpawnPos.transform.forward * _bulletSpeed);
+            bullet.SetRange(bulletRange);
+            bullet.SetBouncy(bulletBouncy);
+            var bulletGroup=bullet.GetComponent<BulletGroup>();
+            bulletGroup.SetCurrent(_weapon.Gun.Current);
+
         }
 
 

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GunGroup _gun;
+    public GunGroup Gun => _gun;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.TryGetComponent(out GunGroup gun))
+        {
+            _gun.SetCurrent(gun.Current);
+            Destroy(gun.gameObject);
+        }
     }
 }
