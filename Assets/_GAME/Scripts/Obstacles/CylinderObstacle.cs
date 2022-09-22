@@ -16,6 +16,7 @@ public class CylinderObstacle : MonoBehaviour
     [SerializeField] private Color _color2;
     [SerializeField] private Color _color3;
     [SerializeField] private Color _color4;
+    [SerializeField] private Gradient _gradient;
 
     private float _defHealth;
     private float _scaleDownXZ;
