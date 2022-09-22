@@ -11,13 +11,16 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.TryGetComponent(out CylinderObstacle obs))
+        if (other.CompareTag("Obstacle"))
         {
-            MoveZ.Instance.isMove = false;
-            transform.DOMoveZ(transform.position.z - 20, 1f).OnComplete(()=>MoveZ.Instance.isMove=true);
+            BackBouncy();
         }
-
+        
     }
 
-
+    private void BackBouncy()
+    {
+        MoveZ.Instance.isMove = false;
+        transform.DOMoveZ(transform.position.z - 20, 1f).OnComplete(() => MoveZ.Instance.isMove = true);
+    }
 }
