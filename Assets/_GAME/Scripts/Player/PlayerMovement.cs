@@ -23,7 +23,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (GameController.Instance.IsPlaying && !_onlyOnce) MoveZ.Instance.isMove = true;
+        if (GameController.Instance.IsPlaying && !_onlyOnce) 
+        {
+            MoveZ.Instance.isMove = true;
+            SwerveController.Instance.canSwerve = true;
+        }
+        
     }
 
 

@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
             {
                 GameController.Instance.SuccessLevel();
                 MoveZ.Instance.isMove = false;
+                SwerveController.Instance.canSwerve = false;
+                SwerveController.Instance.Reset();
             }
             else
             {
