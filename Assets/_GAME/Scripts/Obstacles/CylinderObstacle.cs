@@ -17,6 +17,10 @@ public class CylinderObstacle : MonoBehaviour
     [SerializeField] private Color _currentColor;
     [SerializeField] private float _current;
     [SerializeField, ReadOnly] private float _removed;
+    [SerializeField] private CollectableMoney _money;
+    [SerializeField] private int _earnMoney;
+    public bool final;
+
 
     private Collider _col;
     private float _defHealth;
@@ -36,7 +40,7 @@ public class CylinderObstacle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+
         if (other.TryGetComponent(out Bullet bullet))
         {
             if (_health > 0)
@@ -52,7 +56,8 @@ public class CylinderObstacle : MonoBehaviour
                     _tmp.enabled = false;
                     _model.gameObject.SetActive(false);
                     if (_gun.activeInHierarchy) _gun.transform.DOMoveY(0, 0.5f);
-                    
+                    if (final && _money.gameObject.activeInHierarchy) _money.transform.DOMoveY(0, 0.5f);
+
                 }
             }
 
@@ -98,6 +103,16 @@ public class CylinderObstacle : MonoBehaviour
         _currentColor = _gradient.Evaluate(_current);
         _mesh.material.color = _currentColor;
 
+        if (final)
+        {
+            _money.gameObject.SetActive(true);
+            _money.SetMoney(_earnMoney);
+        }
+        else
+        {
+            _money.gameObject.SetActive(false);
+        }
+
     }
 #endif
 
@@ -122,8 +137,8 @@ public class CylinderObstacle : MonoBehaviour
         {
             _diffXZ = transform.localScale.x - 1f;
             _diffY = transform.localScale.y - 1f;
-            _scaleDownXZ = _diffXZ / (_defHealth-10);
-            _scaleDownY = _diffY / (_defHealth-10);
+            _scaleDownXZ = _diffXZ / (_defHealth - 10);
+            _scaleDownY = _diffY / (_defHealth - 10);
         }
         else
         {

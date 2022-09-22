@@ -54,12 +54,12 @@ public class CashObject : MonoBehaviour
 
     private void MoveToUI()
     {
-        Vector3 targetPosUI = InGameUIController.Instance.CashImage.transform.position + Vector3.forward*10;
+        Vector3 targetPosUI = MoneyTXT.Instance.transform.position + Vector3.forward*10;
         Vector3 targetPosWorld = Camera.main.ScreenToWorldPoint(targetPosUI);
         transform.DOMove(targetPosWorld, 1).SetEase(Ease.InOutCirc).OnComplete((() =>
         {
             transform.DOScale(Vector3.zero, .5f).SetEase(Ease.InOutExpo);
-            LevelMoneyController.Instance.AddMoney(_money);
+            MoneyManager.Instance.IncrementMoney(100);
         }));
     }
 }

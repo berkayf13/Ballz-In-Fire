@@ -15,6 +15,13 @@ public class Player : MonoBehaviour
         {
             BackBouncy();
         }
+        if (other.TryGetComponent(out CylinderObstacle cylinder))
+        {
+            if (cylinder.final)
+                GameController.Instance.SuccessLevel();
+            else
+                BackBouncy();
+        }
         
     }
 
