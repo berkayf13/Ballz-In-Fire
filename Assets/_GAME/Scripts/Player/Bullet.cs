@@ -29,9 +29,10 @@ public class Bullet : MonoBehaviour
                 var obsPos = obs.transform.position;
                 var bulletPos = transform.position;
                 obsPos.y = bulletPos.y;
-                var inNormal = (bulletPos - obsPos).normalized;
+                var inNormal = ((bulletPos - obsPos)*1.5f).normalized;
                 _rb.velocity = Vector3.Reflect(_rb.velocity, inNormal);
                 bounce--;
+                Debug.Log(inNormal);
             }
             else
             {
