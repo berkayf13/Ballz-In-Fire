@@ -43,16 +43,16 @@ public class Door : MonoBehaviour
         switch (_type)
         {
             case DoorType.Range:
-                _tmpui.text = _value + "RANGE";
+                _tmpui.text = _value + " RANGE";
                 break;
             case DoorType.FireRate:
-                _tmpui.text = _value + "FIRERATE";
+                _tmpui.text = Mathf.Abs(_value) + " FIRERATE";
                 break;
             case DoorType.Bullet:
-                _tmpui.text = _value + "BULLET";
+                _tmpui.text = _value + " BULLET";
                 break;
             case DoorType.Bouncy:
-                _tmpui.text = _value + "BOUNCY";
+                _tmpui.text = _value + " BOUNCY";
                 break;
         }
 
