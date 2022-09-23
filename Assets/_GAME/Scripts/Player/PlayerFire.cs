@@ -31,13 +31,28 @@ public class PlayerFire : MonoBehaviour
     {
         for (int i = 0; i < bulletCount; i++)
         {
-            _bulletSpawnPos.transform.rotation = Quaternion.Euler(0, Random.Range(-1f - bulletCount, 1f + bulletCount), 0);
-            var bullet = Instantiate(_ballPrefap, _bulletSpawnPos.position, _bulletSpawnPos.rotation).GetComponent<Bullet>();
+
+            Transform calculatePos = _bulletSpawnPos.transform;
+
+            if (bulletCount == 1)
+            {
+                calculatePos.transform.rotation = Quaternion.Euler(0, Random.Range(-1f - bulletCount, 1f + bulletCount), 0);
+            }
+            else
+            {
+                calculatePos.transform.rotation = Quaternion.Euler(0, ((1f - bulletCount) * 0.5f) + i, 0);
+                calculatePos.transform.localPosition = new Vector3((((1f - bulletCount) * 0.5f) + i)*0.5f, calculatePos.transform.localPosition.y, calculatePos.transform.localPosition.z);
+            }
+                
+
+
+
+            var bullet = Instantiate(_ballPrefap, calculatePos.position, calculatePos.rotation).GetComponent<Bullet>();
             bullet.transform.parent = transform.parent;
             bullet.SetVelocity(_bulletSpawnPos.transform.forward * _bulletSpeed);
             bullet.SetRange(bulletRange);
             bullet.SetBouncy(bulletBouncy);
-            var bulletGroup=bullet.GetComponent<BulletGroup>();
+            var bulletGroup = bullet.GetComponent<BulletGroup>();
             bulletGroup.SetCurrent(_weapon.Gun.Current);
 
         }
