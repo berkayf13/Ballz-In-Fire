@@ -683,7 +683,7 @@ MonoBehaviour:
   _weapon: {fileID: -3377170920233770137}
   _ballPrefap: {fileID: 1786186959166204061, guid: 658e389919be9144ca04fc591cb022e8, type: 3}
   _bulletSpawnPos: {fileID: 4176514774091544874}
-  _bulletSpeed: 50
+  _bulletSpeed: 100
   bulletFireRate: 0.5
   bulletRange: 2
   bulletBouncy: 1
@@ -1600,7 +1600,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 671757130612328824, guid: 856e2e88f73a0c94eb7c34007ca3755f, type: 3}
+  - {fileID: 2100000, guid: 8d8759fa7c84a664ca4d42dec429c508, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
