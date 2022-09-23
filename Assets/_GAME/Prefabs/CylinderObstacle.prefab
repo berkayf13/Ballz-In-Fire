@@ -199,6 +199,7 @@ MonoBehaviour:
   _removed: 0
   _money: {fileID: 4316181647513309059}
   _earnMoney: 0
+  _mat: {fileID: 2100000, guid: 37ae47dec7e407c48ab3d3d90ff2b802, type: 2}
   final: 0
 --- !u!136 &5547857209814452146
 CapsuleCollider:

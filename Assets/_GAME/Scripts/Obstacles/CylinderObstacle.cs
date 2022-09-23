@@ -19,6 +19,7 @@ public class CylinderObstacle : MonoBehaviour
     [SerializeField, ReadOnly] private float _removed;
     [SerializeField] private CollectableMoney _money;
     [SerializeField] private int _earnMoney;
+    [SerializeField] private Material _mat;
     public bool final;
 
 
@@ -127,6 +128,7 @@ public class CylinderObstacle : MonoBehaviour
     private void UpdateText()
     {
         _tmp.text = "" + _health;
+        _mesh.material = new Material(_mat.shader);
     }
 
     private void CalculateDamage()
