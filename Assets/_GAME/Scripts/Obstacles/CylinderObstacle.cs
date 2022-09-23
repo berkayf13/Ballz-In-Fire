@@ -129,6 +129,7 @@ public class CylinderObstacle : MonoBehaviour
     {
         _tmp.text = "" + _health;
         _mesh.material = new Material(_mat.shader);
+        _mesh.material.color = _currentColor;
     }
 
     private void CalculateDamage()
@@ -146,6 +147,7 @@ public class CylinderObstacle : MonoBehaviour
         {
             _scaleDownXZ = 0;
             _scaleDownY = 0;
+            _removed = 0;
         }
 
     }
