@@ -24,12 +24,12 @@ public class Bullet : MonoBehaviour
     {
         if (other.TryGetComponent(out CylinderObstacle obs))
         {
-            if (bounce>0)
+            if (bounce > 0)
             {
                 var obsPos = obs.transform.position;
                 var bulletPos = transform.position;
                 obsPos.y = bulletPos.y;
-                var inNormal = ((bulletPos - obsPos)*1.5f).normalized;
+                var inNormal = ((bulletPos - obsPos) * 1.5f).normalized;
                 _rb.velocity = Vector3.Reflect(_rb.velocity, inNormal);
                 bounce--;
                 Debug.Log(inNormal);
@@ -49,6 +49,9 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
     }
 
-
+    private void Update()
+    {
+        if (transform.localRotation.x > 15 && transform.localRotation.x < -15) Destroy(gameObject);
+    }
 
 }

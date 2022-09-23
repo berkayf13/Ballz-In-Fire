@@ -30,7 +30,15 @@ public class Player : MonoBehaviour
             }
                 
         }
-        
+        if (other.CompareTag("Finish"))
+        {
+            
+                GameController.Instance.SuccessLevel();
+                MoveZ.Instance.isMove = false;
+                SwerveController.Instance.canSwerve = false;
+                SwerveController.Instance.Reset();
+
+        }
     }
 
     private void BackBouncy()
