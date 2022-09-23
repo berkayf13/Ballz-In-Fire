@@ -74,7 +74,7 @@ public class CylinderObstacle : MonoBehaviour
           }));
     }
 
-#if UNITY_EDITOR
+
     [Button]
     private void UpdateColorNScale()
     {
@@ -115,7 +115,7 @@ public class CylinderObstacle : MonoBehaviour
         }
 
     }
-#endif
+
 
     private void UpdateColor()
     {
