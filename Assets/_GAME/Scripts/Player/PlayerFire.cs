@@ -10,6 +10,7 @@ public class PlayerFire : MonoBehaviour
     [SerializeField] private Transform _bulletSpawnPos;
     [SerializeField] private float _bulletSpeed;
 
+
     public float bulletFireRate = 0.5f;
     public float bulletRange = 2;
     public float bulletBouncy = 1;
@@ -40,7 +41,7 @@ public class PlayerFire : MonoBehaviour
             }
             else
             {
-                calculatePos.transform.rotation = Quaternion.Euler(0, (((1f - bulletCount) * 0.5f) + i)*6, 0);
+                calculatePos.transform.rotation = Quaternion.Euler(0, (((1f - bulletCount) * 0.5f) + i)* bulletCount, 0);
                 //calculatePos.transform.localPosition = new Vector3((((1f - bulletCount) * 0.5f) + i)*0.5f, calculatePos.transform.localPosition.y, calculatePos.transform.localPosition.z);
             }
                 
