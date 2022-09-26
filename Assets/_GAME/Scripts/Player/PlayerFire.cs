@@ -40,7 +40,7 @@ public class PlayerFire : MonoBehaviour
             }
             else
             {
-                calculatePos.transform.rotation = Quaternion.Euler(0, ((1f - bulletCount) * 0.5f) + i, 0);
+                calculatePos.transform.rotation = Quaternion.Euler(0, (((1f - bulletCount) * 0.5f) + i)*6, 0);
                 //calculatePos.transform.localPosition = new Vector3((((1f - bulletCount) * 0.5f) + i)*0.5f, calculatePos.transform.localPosition.y, calculatePos.transform.localPosition.z);
             }
                 
