@@ -156,9 +156,10 @@ public class CylinderObstacle : MonoBehaviour
     {
         if (_health >= 10)
         {
-            transform.localScale -= Vector3.right * _scaleDownXZ;
-            transform.localScale -= Vector3.forward * _scaleDownXZ;
-            transform.localScale -= Vector3.up * _scaleDownY;
+            //transform.localScale -= Vector3.right * _scaleDownXZ;
+            //transform.localScale -= Vector3.forward * _scaleDownXZ;
+            //transform.localScale -= Vector3.up * _scaleDownY;
+            transform.localScale = new Vector3(transform.localScale.x - _scaleDownXZ, transform.localScale.y - _scaleDownY, transform.localScale.z - _scaleDownXZ);
         }
 
     }
