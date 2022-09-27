@@ -56,7 +56,7 @@ public class CylinderObstacle : MonoBehaviour
                     _col.enabled = false;
                     _tmp.enabled = false;
                     _model.gameObject.SetActive(false);
-                    if (_gun.activeInHierarchy) _gun.transform.DOMoveY(0, 0.5f);
+                    if (_gun.activeInHierarchy) _gun.transform.DOMoveY(1, 0.5f);
                     if (final && _money.gameObject.activeInHierarchy) _money.transform.DOMoveY(0, 0.5f);
 
                 }
