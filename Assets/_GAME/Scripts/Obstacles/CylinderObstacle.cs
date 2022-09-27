@@ -9,7 +9,7 @@ public class CylinderObstacle : MonoBehaviour
 {
 
     [SerializeField] private float _health;
-    [SerializeField] private MeshRenderer _mesh;
+    [SerializeField] private SkinnedMeshRenderer _mesh;
     [SerializeField] private TextMeshPro _tmp;
     [SerializeField] private Transform _model;
     [SerializeField] private GameObject _gun;

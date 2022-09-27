@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Door : MonoBehaviour
 {
@@ -9,8 +10,12 @@ public class Door : MonoBehaviour
 
     [SerializeField] private float _value;
     [SerializeField] private TextMeshProUGUI _tmpui;
+    [SerializeField] private Image _img;
     [SerializeField] private DoorType _type;
-
+    [SerializeField] private Sprite _rangeSprite;
+    [SerializeField] private Sprite _fireRateSprite;
+    [SerializeField] private Sprite _bulletSprite;
+    [SerializeField] private Sprite _bouncySprite;
     private void Awake()
     {
         UpdateText();
@@ -44,15 +49,19 @@ public class Door : MonoBehaviour
         {
             case DoorType.Range:
                 _tmpui.text = " RANGE";
+                _img.sprite = _rangeSprite;
                 break;
             case DoorType.FireRate:
                 _tmpui.text = " FIRERATE";
+                _img.sprite = _fireRateSprite;
                 break;
             case DoorType.Bullet:
                 _tmpui.text = " BULLET";
+                _img.sprite = _bulletSprite;
                 break;
             case DoorType.Bouncy:
                 _tmpui.text = " BOUNCY";
+                _img.sprite = _bouncySprite;
                 break;
         }
 
