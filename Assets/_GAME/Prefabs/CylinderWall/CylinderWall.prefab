@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 1991415959380302517}
   - component: {fileID: 7636894178629659567}
   m_Layer: 0
-  m_Name: CylinderObstacle
+  m_Name: CylinderWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

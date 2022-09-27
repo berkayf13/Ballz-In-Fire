@@ -19,25 +19,18 @@ public class Player : MonoBehaviour
         {
             if (cylinder.final)
             {
-                GameController.Instance.SuccessLevel();
-                MoveZ.Instance.isMove = false;
-                SwerveController.Instance.canSwerve = false;
-                SwerveController.Instance.Reset();
+                Succes();
             }
             else
             {
                 BackBouncy();
             }
-                
+
         }
         if (other.CompareTag("Finish"))
         {
-            
-                GameController.Instance.SuccessLevel();
-                MoveZ.Instance.isMove = false;
-                SwerveController.Instance.canSwerve = false;
-                SwerveController.Instance.Reset();
 
+            Succes();
         }
     }
 
@@ -45,5 +38,14 @@ public class Player : MonoBehaviour
     {
         MoveZ.Instance.isMove = false;
         transform.DOMoveZ(transform.position.z - 20, 1f).OnComplete(() => MoveZ.Instance.isMove = true);
+    }
+
+    private void Succes()
+    {
+        GameController.Instance.SuccessLevel();
+        MoveZ.Instance.isMove = false;
+        SwerveController.Instance.canSwerve = false;
+        SwerveController.Instance.Reset();
+        PlayerAnimController.Instance.Idle();
     }
 }
