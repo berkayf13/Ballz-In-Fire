@@ -29,7 +29,6 @@ public class Player : MonoBehaviour
         }
         if (other.CompareTag("Finish"))
         {
-
             Succes();
         }
     }
